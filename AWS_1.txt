@@ -1,0 +1,65 @@
+IAM - identity - giving roles and  permission.
+- Mainly givn by security team
+
+ec2 - elastic container - for data - like docker
+
+cloud Registry - 
+
+cloud trail - audit done,
+
+
+aws config - user account assets, logs and monitering 
+
+relation DS - for sequl DB
+
+AWS org - 
+S3 - build buckets for similar type of static data, 
+-------------------------------------------------------------
+
+3- tier normal - Web server - app server - DB
+3-tier for cloud  - web server - lamda function (serverless) - DB
+
+
+AWS CIS benchmarks.
+
+foundation level - for all
+normal foundation if only web application is there.
+
+if only DB  - only for data base. 
+if DB is included in testing. - data base + foundation
+
+AWS compute is done for ec2 instances.
+IF compute is for system then -  AWS compute service benchmark.
+if compute is used by end user then - End user compute service
+
+with tool only foundation is done, for rest of the checks - manual testing has to be done.
+
+-------------------------------------------------------------
+In AWS - least privileged is followed (where min. permission is given).
+
+aws - 2 type user - root & IAM
+no Access key is made for root user.
+
+Req by clients:
+no of AWS accounts and account number
+How many regions - for calculation of  time and efforts.
+creds of every account 
+Permissions for each account.
+	( console access - for manual audit steps,
+	 progranatic access - for cli audit checks
+	 VOA permission -  for viewing all resources- , 
+	 securityAudit(SA) permission  -  for giving audit logs)
+
+services in scope - deciding benchmarks/time & efforts estimation
+
+-------------------------------------------------------------
+1)INstall AWS
+2)cli commands for cis 
+
+ -> export AWS_access_key
+
+-> prowler aws
+-> prowler dashboard
+
+
+
